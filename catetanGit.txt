@@ -1,0 +1,6 @@
+———— catatan komen git —————
+git add -> menambahkan atau menaruh file ke staging area
+git commit -> mengcommit file sehingga masuk ke history area
+git checkout “nomor history (5 angka)” “nama file” -> membalikkan file yang terhapus (git checkout 3b8fe -- style.css )
+git status -> melihat status file yang ada di folder atau repo
+git 
