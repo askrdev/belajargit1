@@ -6,7 +6,9 @@ git checkout “nomor history (5 angka)” “nama file”          -> membalikk
 git status                                                  -> melihat status file yang ada di folder atau repo
 git branch                                                  -> melihat branch yang ada di folder
 git branch "nama branch"                                    -> membuat branch baru
+git branch --merge                                          -> melihat branch yang sudah di merge
+git branch -d "nama branch"                                 -> mendelete branch tetapi harus di merge dahulu
+git branch -D "nama branch"                                 -> mendelete branch secara paksa tanpa harus di merge
 git log --all --decorate --oneline --graph                  -> melihat semua log di semua commit dan branch
 alias allgraph="git log --all --decorate --oneline --graph" -> membuat alias untuk "git log --all" agar lebih ringkas
 allgraph                                                    -> melihat semua log di semua commit dan branch
-git branch
