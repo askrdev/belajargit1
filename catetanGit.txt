@@ -12,3 +12,7 @@ git branch -D "nama branch"                                 -> mendelete branch 
 git log --all --decorate --oneline --graph                  -> melihat semua log di semua commit dan branch
 alias allgraph="git log --all --decorate --oneline --graph" -> membuat alias untuk "git log --all" agar lebih ringkas
 allgraph                                                    -> melihat semua log di semua commit dan branch
+
+---------- catatan kegunaan ----------
+git dapat mundur kembali ke commit yang diinginkan dengan checkout ke lokasi commit dan menambahkan branch
+    agar dapat menambahkan yang ingin di tambahkan dan di lanjutkan oleh commit tersebut
