@@ -15,4 +15,4 @@ allgraph                                                    -> melihat semua log
 
 ---------- catatan kegunaan ----------
 git dapat mundur kembali ke commit yang diinginkan dengan checkout ke lokasi commit dan menambahkan branch
-    agar dapat menambahkan yang ingin di tambahkan dan di lanjutkan oleh commit tersebut
+    agar dapat menambahkan yang ingin di tambahkan isinya dan di lanjutkan oleh commit tersebut
