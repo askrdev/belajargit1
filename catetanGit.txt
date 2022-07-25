@@ -1,23 +1,31 @@
 ———— catatan komen git —————
-git add                                                     -> menambahkan atau menaruh file ke staging area
-git commit -m “pesan”                                       -> mengcommit file sehingga masuk ke history area
-git commit -am “pesan”                                      -> mengadd dan mengcommit file (a -> add, m -> message)
-git checkout “nomor history (5 angka)” “nama file”          -> membalikkan file yang terhapus (git checkout 3b8fe -- style.css )
-git status                                                  -> melihat status file yang ada di folder atau repo
-git branch                                                  -> melihat branch yang ada di folder
-git branch "nama branch"                                    -> membuat branch baru
-git branch --merge                                          -> melihat branch yang sudah di merge
-git branch -d "nama branch"                                 -> mendelete branch tetapi harus di merge dahulu
-git branch -D "nama branch"                                 -> mendelete branch secara paksa tanpa harus di merge
-git log --all --decorate --oneline --graph                  -> melihat semua log di semua commit dan branch
-alias allgraph="git log --all --decorate --oneline --graph" -> membuat alias untuk "git log --all" agar lebih ringkas
-allgraph                                                    -> melihat semua log di semua commit dan branch
-git remote                                                  -> melihat sudah terhubung atau belum ke origin (website / selain lokal repo)
-git remote -v                                               -> melihat repo yang terhubung ke web mana saja
-git push                                                    -> mengirim update ke repo origin(website)
-git fetch                                                   -> mengecek commit sudah sampai mana / menyamakan commit dengan yang sudah ada di lain tempat
-git pull                                                    -> mengambil file diluar lokal file (di website)
+git add                                                                     -> menambahkan atau menaruh file ke staging area
+git commit -m “pesan”                                                       -> mengcommit file sehingga masuk ke history area
+git commit -am “pesan”                                                      -> mengadd dan mengcommit file (a -> add, m -> message)
+git checkout “nomor history (5 angka)” “nama file”                          -> membalikkan file yang terhapus (git checkout 3b8fe -- style.css )
+git status                                                                  -> melihat status file yang ada di folder atau repo
+git branch                                                                  -> melihat branch yang ada di folder
+git branch "nama branch"                                                    -> membuat branch baru
+git branch --merge                                                          -> melihat branch yang sudah di merge
+git branch -d "nama branch"                                                 -> mendelete branch tetapi harus di merge dahulu
+git branch -D "nama branch"                                                 -> mendelete branch secara paksa tanpa harus di merge
+git log --all --decorate --oneline --graph                                  -> melihat semua log di semua commit dan branch
+alias allgraph="git log --all --decorate --oneline --graph"                 -> membuat alias untuk "git log --all" agar lebih ringkas
+allgraph                                                                    -> melihat semua log di semua commit dan branch
+git remote                                                                  -> melihat sudah terhubung atau belum ke origin (website / selain lokal repo)
+git remote -v                                                               -> melihat repo yang terhubung ke web mana saja
+git remote add "nama remote (default origin)" "alamat website"              -> menambahkan remote baru
+git push                                                                    -> mengirim update ke repo origin(website)
+git push -u "nama remote (default origin)" "nama branch (default master)"   -> mengirim code ke website untuk pertama kembali
+git push "nama remote" "nama branch"                                        -> mengirim branch ke website
+git fetch                                                                   -> mengecek commit sudah sampai mana / menyamakan commit dengan yang sudah ada di lain tempat
+git fetch "nama remote"                                                     -> mengambil commit di remote yang lain
+git pull                                                                    -> mengambil file diluar lokal file (di website)
+git merge                                                                   -> menyatukan 2 branch menjadi satu (1)
 
 ---------- catatan kegunaan ----------
 git dapat mundur kembali ke commit yang diinginkan dengan checkout ke lokasi commit dan menambahkan branch
     agar dapat menambahkan yang ingin di tambahkan isinya dan di lanjutkan oleh commit tersebut
+
+jika mau mengusulkan code jangan edit di MASTERnya, 
+    harus membuat branch baru, baru aman untuk di edit
