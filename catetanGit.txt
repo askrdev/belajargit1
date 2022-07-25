@@ -23,6 +23,14 @@ git fetch "nama remote"                                                     -> m
 git pull                                                                    -> mengambil file diluar lokal file (di website)
 git merge                                                                   -> menyatukan 2 branch menjadi satu (1)
 
+---------- catatan gitignore ---------
+- catatanGit.txt                -> untuk menghilangkan file nama tersebut
+- /data                         -> untuk menghilangkan folder (data)
+- *.exe                         -> untuk menghilangkan file dengan format .exe
+- konfigurasi untuk lokal jangan sampai di push ke dalam github
+- kunjungi website "github.com/github/gitignore" untuk rekomendasi gitignore 
+- kunjungi juga website "gitignore.io" untuk lebih lengkap
+
 ---------- catatan kegunaan ----------
 git dapat mundur kembali ke commit yang diinginkan dengan checkout ke lokasi commit dan menambahkan branch
     agar dapat menambahkan yang ingin di tambahkan isinya dan di lanjutkan oleh commit tersebut
