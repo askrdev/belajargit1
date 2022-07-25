@@ -22,6 +22,8 @@ git fetch                                                                   -> m
 git fetch "nama remote"                                                     -> mengambil commit di remote yang lain
 git pull                                                                    -> mengambil file diluar lokal file (di website)
 git merge                                                                   -> menyatukan 2 branch menjadi satu (1)
+git checkout -b "nama branch"                                               -> membuat branch dan melakukan checkout
+git rebase "nama branch yang di tuju"                                       -> memindahkan ke commit yang terakhir
 
 ---------- catatan gitignore ---------
 - catatanGit.txt                -> untuk menghilangkan file nama tersebut
