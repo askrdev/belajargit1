@@ -15,7 +15,8 @@ allgraph                                                    -> melihat semua log
 git remote                                                  -> melihat sudah terhubung atau belum ke origin (website / selain lokal repo)
 git remote -v                                               -> melihat repo yang terhubung ke web mana saja
 git push                                                    -> mengirim update ke repo origin(website)
-
+git fetch                                                   -> mengecek commit sudah sampai mana / menyamakan commit dengan yang sudah ada di lain tempat
+git pull                                                    -> mengambil file diluar lokal file (di website)
 
 ---------- catatan kegunaan ----------
 git dapat mundur kembali ke commit yang diinginkan dengan checkout ke lokasi commit dan menambahkan branch
