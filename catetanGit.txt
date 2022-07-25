@@ -23,7 +23,7 @@ git fetch "nama remote"                                                     -> m
 git pull                                                                    -> mengambil file diluar lokal file (di website)
 git merge                                                                   -> menyatukan 2 branch menjadi satu (1)
 git checkout -b "nama branch"                                               -> membuat branch dan melakukan checkout
-git rebase "nama branch yang di tuju"                                       -> memindahkan ke commit yang terakhir
+git rebase "nama branch commit yang di tuju"                                -> memindahkan ke commit yang terakhir
 
 ---------- catatan gitignore ---------
 - catatanGit.txt                -> untuk menghilangkan file nama tersebut
@@ -39,3 +39,7 @@ git dapat mundur kembali ke commit yang diinginkan dengan checkout ke lokasi com
 
 jika mau mengusulkan code jangan edit di MASTERnya, 
     harus membuat branch baru, baru aman untuk di edit
+
+github dapat terhubung dengan website di cpanel kita, dengan cara memilih "Git Version Control" di cpanel
+    agar dapat terupdate dengan yang ada di github, git di cpanel harus pull.
+    fitur itu ada di manage (git version control cpanel) 
